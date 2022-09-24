@@ -89,9 +89,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "../prod/")
     )
   )
 
@@ -151,6 +151,11 @@
       (net 5 "GND") (pintype "power_in") (tstamp 479331ff-c540-41f4-84e6-b48d65171e59))
     (pad "12" thru_hole circle locked (at -6.35 0 90) (size 1.9 1.9) (drill 1.19) (layers *.Cu *.Mask)
       (net 6 "+VPMOD") (pintype "power_in") (tstamp cc15f583-a41b-43af-ba94-a75455506a96))
+    (model "${KIPRJMOD}/3d-models/conn_61301221021.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "pmod-flash:logo-agilack-11.5" (layer "F.Cu")
@@ -1083,9 +1088,9 @@
       (net 11 "+3.3V") (pintype "passive") (tstamp abfe598f-12b8-487d-a1c1-1c224eb84d4d))
     (pad "2" smd rect (at 0.762 0 180) (size 0.635 1.143) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "GND") (pintype "passive") (tstamp f64f2693-505b-49bd-9bae-447c7e02829d))
-    (model "smd/chip_cms.wrl"
+    (model "${KIPRJMOD}/3d-models/C_0603.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 0.08 0.08 0.08))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1138,6 +1143,11 @@
     (pad "8" smd rect (at 4 -1.905 90) (size 1 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "+3.3V") (pintype "power_in") (tstamp 73e2a101-0bc0-414b-9aa7-7eeb8a3caef1))
     (pad "PAD" smd rect (at 0 0 90) (size 3.4 4.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7f2c9904-545b-4337-acd6-8707e0924818))
+    (model "${KIPRJMOD}/3d-models/wson8.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.5 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "pmod-flash:logo-ohw" (layer "F.Cu")
@@ -1513,6 +1523,11 @@
     (pad "8" smd rect (at 4 -1.905 90) (size 1 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "+3.3V") (pintype "power_in") (tstamp c8305b78-9b06-4ff7-822d-2bc2495a74ca))
     (pad "PAD" smd rect (at 0 0 90) (size 3.4 4.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d5416c8a-c23b-480a-8ee1-ddcea162b66c))
+    (model "${KIPRJMOD}/3d-models/wson8.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.5 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "pmod-flash:SMD0603" (layer "F.Cu")
@@ -1538,9 +1553,9 @@
       (net 11 "+3.3V") (pintype "passive") (tstamp 286a9e39-c26f-49c3-809f-c04839a4ac04))
     (pad "2" smd rect (at 0.762 0 180) (size 0.635 1.143) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "GND") (pintype "passive") (tstamp 706bece9-b980-4420-a866-a63a48a63c89))
-    (model "smd/chip_cms.wrl"
+    (model "${KIPRJMOD}/3d-models/C_0603.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 0.08 0.08 0.08))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1568,9 +1583,9 @@
       (net 6 "+VPMOD") (pinfunction "1") (pintype "passive") (tstamp a2ab466a-cfe8-4978-bc70-ab0176ad146c))
     (pad "2" smd rect (at 0.762 0) (size 0.635 1.143) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "+3.3V") (pinfunction "2") (pintype "passive") (tstamp c03327f2-012e-4fbf-80a8-a7d4b49f6df2))
-    (model "smd/chip_cms.wrl"
+    (model "${KIPRJMOD}/3d-models/I_0603.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 0.08 0.08 0.08))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
